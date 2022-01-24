@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gradebook", "gradebook", "{E64C64DD-F6C6-4429-8C18-F8CF36E56059}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7DFF3F9E-46A6-4BC7-81A3-3B7411E8C1EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gradebook", "gradebook\src\gradebook\gradebook.csproj", "{93CC792F-5CA9-4F6E-829E-7C844DAECF31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4D7C82D6-DC46-4E77-8804-52F76AD3153D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradeBook.Tests", "gradebook\test\GradeBook.Tests\GradeBook.Tests.csproj", "{E6596703-D624-4F77-AC04-6953C081375E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93CC792F-5CA9-4F6E-829E-7C844DAECF31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93CC792F-5CA9-4F6E-829E-7C844DAECF31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93CC792F-5CA9-4F6E-829E-7C844DAECF31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93CC792F-5CA9-4F6E-829E-7C844DAECF31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6596703-D624-4F77-AC04-6953C081375E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6596703-D624-4F77-AC04-6953C081375E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6596703-D624-4F77-AC04-6953C081375E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6596703-D624-4F77-AC04-6953C081375E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7DFF3F9E-46A6-4BC7-81A3-3B7411E8C1EB} = {E64C64DD-F6C6-4429-8C18-F8CF36E56059}
+		{93CC792F-5CA9-4F6E-829E-7C844DAECF31} = {7DFF3F9E-46A6-4BC7-81A3-3B7411E8C1EB}
+		{4D7C82D6-DC46-4E77-8804-52F76AD3153D} = {E64C64DD-F6C6-4429-8C18-F8CF36E56059}
+		{E6596703-D624-4F77-AC04-6953C081375E} = {4D7C82D6-DC46-4E77-8804-52F76AD3153D}
+	EndGlobalSection
+EndGlobal
